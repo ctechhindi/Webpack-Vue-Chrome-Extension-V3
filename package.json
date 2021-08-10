@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Webpack 4 & Vue 2 (.vue) - Chrome Extension V3",
   "scripts": {
+    "watch": "node utils/dev.js",
     "start": "node utils/webserver.js",
-    "watch": "webpack --watch --mode development",
-    "build": "node utils/build.js"
+    "build": "node utils/build.js",
+    "build-zip": "npm run build && node utils/build-zip.js"
   },
   "keywords": ["chrome", "vue", "webpack", "chrome-extension"],
   "author": "Jeevan Lal",

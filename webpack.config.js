@@ -115,6 +115,7 @@ var options = {
           },
         },
         { from: 'src/icons', to: 'icons', force: true, },
+        { from: 'src/assets', to: 'assets', force: true, },
       ]
     }),
   ],

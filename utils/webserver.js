@@ -20,6 +20,7 @@ config.plugins = [new webpack.HotModuleReplacementPlugin()].concat(
 
 var compiler = webpack(config);
 
+// https://webpack.js.org/configuration/dev-server/#devserver
 var server = new WebpackDevServer(compiler, {
   https: false,
   hot: true,

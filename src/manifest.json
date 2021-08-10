@@ -28,7 +28,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "icons/icon-34.png"
+        "assets/*"
       ],
       "matches": []
     }
